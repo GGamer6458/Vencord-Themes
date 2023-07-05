@@ -24,7 +24,7 @@
 /* --== Define some general variables! ==-- */
 :root {
   /* --rgb-highlight: 4 217 255; */
-  --highlight: #0069ff; /* rgb(var(--rgb-highlight)); */
+  --highlight: #ff0000; /* rgb(var(--rgb-highlight)); */
   --background: #000000;
   --close-button: var(--dnd-color) !important;
   --online-color: #39ff14;
