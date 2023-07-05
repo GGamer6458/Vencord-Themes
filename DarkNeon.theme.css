@@ -34,8 +34,8 @@
   --rs-online-color: var(--online-color);
   --rs-idle-color: var(--afk-color);
   --rs-dnd-color: var(--dnd-color);
-  --rs-offline-color: gray;
-  --rs-invisible-color: gray;
+  --rs-offline-color: #808080;
+  --rs-invisible-color: #808080;
   --rs-streaming-color: var(--stream-color);
   --interactive-hover: var(--highlight);
   --interactive-active: var(--highlight);
@@ -58,7 +58,7 @@
   --background-secondary-alt: var(--background);
   --background-tertiary: var(--background);
   --background-accent: var(--background);
-  --background-floating: black;
+  --background-floating: #000000;
   --channeltextarea-background: var(--background);
   --textbox-markdown-syntax: var(--background);
 }
@@ -1134,7 +1134,7 @@ s {
 .container-x8Y1ix div,
 .colorStandard-21JIj7,
 .colorHeaderSecondary-g5teka {
-  color: gray;
+  color: #808080;
 }
 
 .container-x8Y1ix {
@@ -1160,7 +1160,7 @@ s {
 .inputDefault-3FGxgL,
 .inputDefault-3FGxgL:hover {
   border-color: var(--highlight);
-  color: gray;
+  color: #808080;
 }
 
 /* --== Style server explorer ==-- */
@@ -1179,19 +1179,19 @@ s {
 .search-25t1e9 .searchBox-31Zv9h {
   background-color: var(--background);
   border: 1px solid var(--highlight);
-  color: gray;
+  color: #808080;
 }
 
 .search-25t1e9 .searchBox-31Zv9h:focus-within {
   background-color: var(--background);
   border: 1px solid var(--highlight);
-  color: gray;
+  color: #808080;
   box-shadow: none;
 }
 
 .search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz {
   border: none;
-  color: gray;
+  color: #808080;
 }
 
 .searchSubtitle-C5P4gh {
@@ -1403,7 +1403,7 @@ s {
 /* CUSTOMIZE COLORS IN HERE! */
 :root {
   --rgb-highlight: 32, 104, 249 !important; /* The main highlight color in RGB values (RGB instead of hex is needed for faded effects) */
-  --background: black !important; /* The main background color */
+  --background: #000000 !important; /* The main background color */
   --close-button: var(
     --dnd-color
   ) !important; /* The main "close this" or "deny" color */
@@ -1416,7 +1416,7 @@ s {
   --rs-online-color: var(--online-color) !important;
   --rs-idle-color: var(--afk-color) !important;
   --rs-dnd-color: var(--dnd-color) !important;
-  --rs-offline-color: gray !important;
-  --rs-invisible-color: gray !important;
+  --rs-offline-color: #808080 !important;
+  --rs-invisible-color: #808080 !important;
   --rs-streaming-color: var(--stream-color) !important;
 }
