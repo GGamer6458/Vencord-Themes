@@ -23,7 +23,7 @@
 
 /* --== Define some general variables! ==-- */
 :root {
-  --rgb-highlight: 0, 105, 255, 1;
+  --rgb-highlight: 255, 219, 0;
   --highlight: rgb(var(--rgb-highlight));
   --background: #000000;
   --close-button: var(--dnd-color) !important;
